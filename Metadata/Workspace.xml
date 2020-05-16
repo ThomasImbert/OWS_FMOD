@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="Workspace" id="{9813795b-3e13-4ced-9bd4-bb37e9c1076c}">
+		<property name="builtBanksOutputDirectory">
+			<value>../OurWallsStory/OurWallsStory/FMODAssets</value>
+		</property>
 		<relationship name="masterEventFolder">
 			<destination>{baef517d-93e4-41cb-8993-59ae382559b0}</destination>
 		</relationship>
@@ -24,6 +27,7 @@
 		</relationship>
 		<relationship name="platforms">
 			<destination>{43f559f3-4044-4285-8dfd-8058044f63f5}</destination>
+			<destination>{f924aba6-6089-4c7b-ad35-73f8b3812e3e}</destination>
 		</relationship>
 	</object>
 </objects>
