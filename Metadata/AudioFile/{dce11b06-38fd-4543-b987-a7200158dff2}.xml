@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{dce11b06-38fd-4543-b987-a7200158dff2}">
 		<property name="assetPath">
-			<value>OWS-Acte1_ChansonTest1Mix2P_1.wav</value>
+			<value>Music/OWS-Acte1_ChansonTest1Mix2P_1.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
