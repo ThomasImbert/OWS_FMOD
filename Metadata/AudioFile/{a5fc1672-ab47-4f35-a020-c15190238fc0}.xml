@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{a5fc1672-ab47-4f35-a020-c15190238fc0}">
 		<property name="assetPath">
-			<value>Valentin_GraceASon_Gnanananana.wav</value>
+			<value>Test/Valentin_GraceASon_Gnanananana.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
