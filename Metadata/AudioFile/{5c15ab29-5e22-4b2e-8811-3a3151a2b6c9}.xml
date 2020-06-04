@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5c15ab29-5e22-4b2e-8811-3a3151a2b6c9}">
+		<property name="assetPath">
+			<value>SFX/PhotoFlash04-imported.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.2679999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e764de32-e70e-43f3-90b8-eb8ae6533cc9}</destination>
+		</relationship>
+	</object>
+</objects>

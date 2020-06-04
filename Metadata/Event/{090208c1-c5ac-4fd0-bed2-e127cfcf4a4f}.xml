@@ -5,7 +5,7 @@
 			<value>SFX_OverCooked</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e5f9006f-8b63-41d2-86c9-ccb2553874b8}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{dc31b4a3-5db0-4265-b0ef-fd531b321edb}" />
 	<object class="GroupTrack" id="{a08cf1c0-7a6b-442c-bb92-078f56410f96}">
 		<relationship name="modules">
-			<destination>{666ceebf-894f-4580-afd0-4c6dfc16c243}</destination>
+			<destination>{a4e06476-a8a3-49cc-aedf-40d02f0f2c6f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2752221c-9b4e-4c30-8a4e-8333fcfaeefa}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{5d1b9429-fdd7-4650-9610-9e22f7802525}">
 		<relationship name="modules">
-			<destination>{666ceebf-894f-4580-afd0-4c6dfc16c243}</destination>
+			<destination>{a4e06476-a8a3-49cc-aedf-40d02f0f2c6f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{eec59e30-97a4-4bb8-b205-f5367ba2e839}">
@@ -88,15 +88,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e4002f3a-b0d2-4186-943c-94d61b45bd60}" />
-	<object class="SingleSound" id="{666ceebf-894f-4580-afd0-4c6dfc16c243}">
+	<object class="SingleSound" id="{a4e06476-a8a3-49cc-aedf-40d02f0f2c6f}">
 		<property name="length">
-			<value>0.92310416666666661</value>
+			<value>6.21</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{60e8b17d-3571-4135-b63d-661a1e9826f5}</destination>
+			<destination>{1329bc78-9788-4d35-a867-9056718740a5}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2752221c-9b4e-4c30-8a4e-8333fcfaeefa}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{584c6ec6-c5e9-47e4-b4da-939db3ff25d0}">
 		<property name="assetPath">
-			<value>PhotoFlash01.wav</value>
+			<value>SFX/placeholder/PhotoFlash01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

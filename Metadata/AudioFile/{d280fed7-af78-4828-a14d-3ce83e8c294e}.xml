@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d280fed7-af78-4828-a14d-3ce83e8c294e}">
+		<property name="assetPath">
+			<value>SFX/SpongeScrub01-imported.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.63654166666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e764de32-e70e-43f3-90b8-eb8ae6533cc9}</destination>
+		</relationship>
+	</object>
+</objects>

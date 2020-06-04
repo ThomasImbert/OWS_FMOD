@@ -5,7 +5,7 @@
 			<value>SFX_CandleLit</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fce5fa7-3787-46f4-8d0c-304dfa8aa36b}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{e3719ab0-2429-41dc-8d21-7ea5b928ce90}" />
 	<object class="GroupTrack" id="{21f0fbae-0b9d-4a9b-86a2-6278d7a4fec7}">
 		<relationship name="modules">
-			<destination>{9e74315f-6e8f-4da9-a01c-60215bbff512}</destination>
+			<destination>{d6f65871-aa66-4665-9018-afa735be9c4f}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{7d957e9f-d328-4f52-a217-b220748c5f6b}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{1ad25dc3-15b9-490f-8a59-187c54561d8a}">
 		<relationship name="modules">
-			<destination>{9e74315f-6e8f-4da9-a01c-60215bbff512}</destination>
+			<destination>{d6f65871-aa66-4665-9018-afa735be9c4f}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d651fb3a-1657-4d0c-94f3-1d2293d43999}">
@@ -88,18 +88,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{62d024b0-e6e4-491b-8232-6969f053d978}" />
-	<object class="SingleSound" id="{9e74315f-6e8f-4da9-a01c-60215bbff512}">
+	<object class="SingleSound" id="{d6f65871-aa66-4665-9018-afa735be9c4f}">
 		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>6.9331041666666664</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.53172916666666636</value>
+			<value>0.93310416666666662</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{7d194954-1f91-4144-b79f-1def569d9cbf}</destination>
+			<destination>{a2d354a4-ed67-470b-9ef2-d37af2a55305}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{7d957e9f-d328-4f52-a217-b220748c5f6b}">

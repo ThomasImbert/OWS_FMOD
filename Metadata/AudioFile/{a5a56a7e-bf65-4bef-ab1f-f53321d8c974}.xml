@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{a5a56a7e-bf65-4bef-ab1f-f53321d8c974}">
+		<property name="assetPath">
+			<value>SFX/Glass02-imported.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3395625</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e764de32-e70e-43f3-90b8-eb8ae6533cc9}</destination>
+		</relationship>
+	</object>
+</objects>
