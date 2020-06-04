@@ -336,7 +336,6 @@
 		<property name="length">
 			<value>13</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{256fd34f-eb2c-4526-92db-d9eda2604bca}</destination>
 		</relationship>
@@ -390,17 +389,14 @@
 		<property name="attackTime">
 			<value>0</value>
 		</property>
-		<property name="holdTime">
-			<value>0</value>
-		</property>
 		<property name="decayTime">
 			<value>0</value>
 		</property>
 		<property name="releaseTime">
-			<value>4000</value>
+			<value>8815.38477</value>
 		</property>
 		<property name="releaseShape">
-			<value>0.252501041</value>
+			<value>0.522094071</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
