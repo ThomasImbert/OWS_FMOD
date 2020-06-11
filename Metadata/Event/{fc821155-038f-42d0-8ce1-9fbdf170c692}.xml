@@ -5,7 +5,7 @@
 			<value>SFX_BathSplash</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e5f9006f-8b63-41d2-86c9-ccb2553874b8}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{05c0278c-0f75-4759-81be-53f395fe482a}" />
 	<object class="GroupTrack" id="{b545e7c2-2d69-4dd9-8723-07ad8aaecdb6}">
 		<relationship name="modules">
-			<destination>{3547a963-da1a-4f3d-a803-77743d3f34dc}</destination>
+			<destination>{85744cc5-8baa-44eb-a9f9-bb1965880d7c}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ad3b5388-e354-42b4-a2ce-b30e20607fef}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{1ac707c9-1a59-404e-83ca-c63fa79a8dee}">
 		<relationship name="modules">
-			<destination>{3547a963-da1a-4f3d-a803-77743d3f34dc}</destination>
+			<destination>{85744cc5-8baa-44eb-a9f9-bb1965880d7c}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d96f247a-0a8d-4c48-aa2c-592ecab38897}">
@@ -88,15 +88,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7877a436-ce26-4bf4-90ce-9c1fa5ddb09d}" />
-	<object class="SingleSound" id="{3547a963-da1a-4f3d-a803-77743d3f34dc}">
+	<object class="SingleSound" id="{85744cc5-8baa-44eb-a9f9-bb1965880d7c}">
 		<property name="length">
-			<value>1.1816249999999999</value>
+			<value>0.95968750000000003</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{3872027b-778f-4334-938e-716c6b48b358}</destination>
+			<destination>{f91a7c10-62b7-4b29-8b2d-c3577fdd711e}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ad3b5388-e354-42b4-a2ce-b30e20607fef}">
+		<property name="volume">
+			<value>-7</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

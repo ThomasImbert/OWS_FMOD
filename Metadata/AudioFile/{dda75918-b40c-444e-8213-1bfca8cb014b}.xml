@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{dda75918-b40c-444e-8213-1bfca8cb014b}">
 		<property name="assetPath">
-			<value>Bigwave01.wav</value>
+			<value>SFX/placeholder/Bigwave01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

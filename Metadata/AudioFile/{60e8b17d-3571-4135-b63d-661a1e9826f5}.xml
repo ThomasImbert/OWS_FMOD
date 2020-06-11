@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{60e8b17d-3571-4135-b63d-661a1e9826f5}">
 		<property name="assetPath">
-			<value>SFX_OverCooked01.wav</value>
+			<value>SFX/placeholder/SFX_OverCooked01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

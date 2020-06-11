@@ -5,7 +5,7 @@
 			<value>SFX_PaintBucket</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fce5fa7-3787-46f4-8d0c-304dfa8aa36b}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{175b92e6-0465-4601-a17d-ddb1e3a61ebf}" />
 	<object class="GroupTrack" id="{97744320-fd1a-4fbb-9066-e069f8462755}">
 		<relationship name="modules">
-			<destination>{466e2fe4-4806-4946-b532-3cf3ed13a0d5}</destination>
+			<destination>{8ebd3015-e747-4854-91fb-d1720a9bd7af}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{a519654c-c041-430e-b0a9-ebcd69a29945}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{2a19c1dc-4ea5-4aa0-9e53-2d13fda75b0d}">
 		<relationship name="modules">
-			<destination>{466e2fe4-4806-4946-b532-3cf3ed13a0d5}</destination>
+			<destination>{8ebd3015-e747-4854-91fb-d1720a9bd7af}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6f83746a-682a-4a0c-ade8-dd6d2d105f3e}">
@@ -88,18 +88,21 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{db2da1e5-1ee1-4bab-8349-5f1b54e8c8af}" />
-	<object class="SingleSound" id="{466e2fe4-4806-4946-b532-3cf3ed13a0d5}">
+	<object class="SingleSound" id="{8ebd3015-e747-4854-91fb-d1720a9bd7af}">
 		<property name="isAsync">
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>12</value>
+			<value>0.67706250000000001</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{68d54c1a-5ad5-45c6-89b6-277fe3e9c9b7}</destination>
+			<destination>{17a92dbc-a597-4a39-b14d-5817d51c8e7d}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{a519654c-c041-430e-b0a9-ebcd69a29945}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

@@ -5,7 +5,7 @@
 			<value>SFX_TV_On</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fce5fa7-3787-46f4-8d0c-304dfa8aa36b}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{f0f247c0-a872-4187-b1a2-183618617271}" />
 	<object class="GroupTrack" id="{b424c8ed-8416-4cdb-b303-b085729299d7}">
 		<relationship name="modules">
-			<destination>{66dfff6c-abbf-4ee3-bf7e-ee08015d4eee}</destination>
+			<destination>{c893cfcc-29dc-47a6-a40d-d6ad0ee6b641}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{9e61be0d-81fd-4514-893c-b36243b0c419}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{8cdf4899-4196-476f-947f-b89863c0c036}">
 		<relationship name="modules">
-			<destination>{66dfff6c-abbf-4ee3-bf7e-ee08015d4eee}</destination>
+			<destination>{c893cfcc-29dc-47a6-a40d-d6ad0ee6b641}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{bf48a44d-e5d8-4eff-a93b-5191f35ec8a6}">
@@ -88,21 +88,18 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{13012ea6-dcfe-40a6-91db-3261e44b1c52}" />
-	<object class="SingleSound" id="{66dfff6c-abbf-4ee3-bf7e-ee08015d4eee}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="SingleSound" id="{c893cfcc-29dc-47a6-a40d-d6ad0ee6b641}">
 		<property name="length">
-			<value>5.0926458333333331</value>
-		</property>
-		<property name="timelockedOffset">
-			<value>0.37058333333333326</value>
+			<value>1.9680416666666667</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{7f728c6c-f893-463a-b180-5d1f906887a3}</destination>
+			<destination>{d4305751-f0e5-4a53-8850-3855c15401a0}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9e61be0d-81fd-4514-893c-b36243b0c419}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

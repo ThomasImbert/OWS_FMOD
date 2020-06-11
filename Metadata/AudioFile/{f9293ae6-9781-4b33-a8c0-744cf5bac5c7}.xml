@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{f9293ae6-9781-4b33-a8c0-744cf5bac5c7}">
 		<property name="assetPath">
-			<value>SFX_ScribblePainting01.wav</value>
+			<value>SFX/placeholder/SFX_ScribblePainting01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

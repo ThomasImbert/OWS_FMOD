@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{33d60152-54ee-431d-a604-d9da16ee91dd}">
 		<property name="assetPath">
-			<value>DustCleaner01.wav</value>
+			<value>SFX/placeholder/DustCleaner01.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

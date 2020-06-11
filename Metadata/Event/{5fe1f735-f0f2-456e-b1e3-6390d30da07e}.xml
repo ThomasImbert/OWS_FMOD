@@ -5,7 +5,7 @@
 			<value>SFX_Glass</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{816f5c1f-0be9-43c8-9485-c6f18cea76f3}</destination>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{2cacce4d-22ee-45d6-a6a8-f391740d8664}" />
 	<object class="GroupTrack" id="{910d7be0-d10e-4464-a68b-c67af1462007}">
 		<relationship name="modules">
-			<destination>{faf88847-53f2-4f6d-87e8-dfeb2897e7fe}</destination>
+			<destination>{f888f0bf-b87d-4fd1-b909-5c8c93a2e307}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{c4367aef-4239-4aa0-b246-3ffa0bbb0924}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{54e153e0-138c-455c-ad77-fbc10971901c}">
 		<relationship name="modules">
-			<destination>{faf88847-53f2-4f6d-87e8-dfeb2897e7fe}</destination>
+			<destination>{f888f0bf-b87d-4fd1-b909-5c8c93a2e307}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{71b3feed-e8f9-404f-9b8a-3885eb2a4492}">
@@ -88,21 +88,20 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1ab917f9-e027-45e9-8864-c4882cd830ed}" />
-	<object class="SingleSound" id="{faf88847-53f2-4f6d-87e8-dfeb2897e7fe}">
-		<property name="isAsync">
-			<value>true</value>
-		</property>
+	<object class="MultiSound" id="{f888f0bf-b87d-4fd1-b909-5c8c93a2e307}">
 		<property name="length">
-			<value>6</value>
+			<value>1.6953958333333334</value>
 		</property>
-		<property name="timelockedOffset">
-			<value>0.018749999999999822</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{a55e7670-2788-4357-ab1e-f8bbe98501cc}</destination>
+		<relationship name="sounds">
+			<destination>{905723d3-5926-4a1f-85f5-05da66293a91}</destination>
+			<destination>{ba69befb-c5aa-4048-a606-f56ec60bea65}</destination>
+			<destination>{6c848148-ee4b-400c-b71e-8eb1bf18d280}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{c4367aef-4239-4aa0-b246-3ffa0bbb0924}">
+		<property name="volume">
+			<value>-4</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -123,6 +122,21 @@
 	</object>
 	<object class="MixerBusPanner" id="{731b1a7c-4bb3-4f08-843b-62867f4b3194}" />
 	<object class="MixerBusFader" id="{35094ccd-b174-49ac-9698-c7e7a8661f96}" />
+	<object class="SingleSound" id="{905723d3-5926-4a1f-85f5-05da66293a91}">
+		<relationship name="audioFile">
+			<destination>{35620349-a322-4c0d-b66f-d1a1e97dfbb8}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{ba69befb-c5aa-4048-a606-f56ec60bea65}">
+		<relationship name="audioFile">
+			<destination>{a5a56a7e-bf65-4bef-ab1f-f53321d8c974}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{6c848148-ee4b-400c-b71e-8eb1bf18d280}">
+		<relationship name="audioFile">
+			<destination>{9e58f74d-e28d-4ca3-b180-89d976421762}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{c10f868d-29e1-4d85-aeeb-6dc72427c7b8}">
 		<relationship name="effects">
 			<destination>{7abc496a-2265-48f3-acfd-efd2956b507e}</destination>
