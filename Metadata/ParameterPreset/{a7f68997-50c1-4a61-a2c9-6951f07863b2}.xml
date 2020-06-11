@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{a7f68997-50c1-4a61-a2c9-6951f07863b2}">
+		<property name="name">
+			<value>Basse Melody</value>
+		</property>
+		<relationship name="folder">
+			<destination>{1abba304-d746-479b-aa82-dc6e7db448d2}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{3aadc7ac-8339-4e33-85b4-ef260138d919}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{3aadc7ac-8339-4e33-85b4-ef260138d919}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
