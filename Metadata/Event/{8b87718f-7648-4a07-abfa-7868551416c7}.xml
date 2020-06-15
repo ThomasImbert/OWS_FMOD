@@ -604,7 +604,6 @@
 		<property name="length">
 			<value>26.181916666666666</value>
 		</property>
-		<property name="name" />
 		<relationship name="audioFile">
 			<destination>{d117a070-69aa-4fe1-8415-852c13de1181}</destination>
 		</relationship>
@@ -632,6 +631,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{04e89bff-4f2f-415c-99af-d0ea22766e40}">
+		<property name="volume">
+			<value>2</value>
+		</property>
 		<property name="name">
 			<value>Percus</value>
 		</property>
@@ -981,6 +983,9 @@
 		</property>
 	</object>
 	<object class="EventMixerGroup" id="{5804bdaa-14f7-4f02-9545-649e87e5b3ec}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Full</value>
 		</property>
@@ -1596,6 +1601,7 @@
 	<object class="MixerBusEffectChain" id="{49f41f39-5d12-4cd3-8179-78af08c34dbb}">
 		<relationship name="effects">
 			<destination>{91e82406-c91f-4880-87e6-dd7e41db9922}</destination>
+			<destination>{f769b6cb-10bf-408c-b344-6277f81e8765}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4f413912-4c5d-4251-ba0b-7d629f73a942}" />
@@ -1979,6 +1985,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{91e82406-c91f-4880-87e6-dd7e41db9922}" />
+	<object class="LoudnessMeter" id="{f769b6cb-10bf-408c-b344-6277f81e8765}" />
 	<object class="AutomationPoint" id="{808d564d-9af6-42f5-8372-0820589adcdc}">
 		<property name="position">
 			<value>0.54545454545454541</value>
@@ -2016,7 +2023,7 @@
 			<value>0.004559270516717325</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>-4</value>
 		</property>
 		<property name="curveShape">
 			<value>-1</value>
@@ -2027,7 +2034,7 @@
 			<value>1</value>
 		</property>
 		<property name="value">
-			<value>-80</value>
+			<value>-36</value>
 		</property>
 	</object>
 </objects>
