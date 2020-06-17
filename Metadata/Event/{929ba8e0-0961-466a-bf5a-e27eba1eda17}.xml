@@ -5,7 +5,7 @@
 			<value>SFX_Sparkles_HoldMedium</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fce5fa7-3787-46f4-8d0c-304dfa8aa36b}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{cff03d51-7ce0-41bb-93d6-3759fbd9ecfc}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{fa381b1d-0b0c-48f7-b3a6-59616903c9fd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{586f8172-7aa7-4c58-9cb3-1c4d94d82520}">
@@ -56,12 +59,22 @@
 	<object class="EventAutomatableProperties" id="{a54d027e-869e-450c-bfb7-e28aabc21352}" />
 	<object class="MarkerTrack" id="{47c3eb6f-9dbd-4d2c-8fba-32034e3f39ca}" />
 	<object class="GroupTrack" id="{1cc4f46a-b39d-4ee8-9ede-7d5db1c45520}">
+		<relationship name="modules">
+			<destination>{c69cedf7-11ea-4aff-bbbc-9ebdba6de345}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{b970615a-ac03-4b57-9ef0-365077e344f2}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{cff03d51-7ce0-41bb-93d6-3759fbd9ecfc}" />
+	<object class="Timeline" id="{cff03d51-7ce0-41bb-93d6-3759fbd9ecfc}">
+		<relationship name="modules">
+			<destination>{c69cedf7-11ea-4aff-bbbc-9ebdba6de345}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{4ee5707f-b329-4e18-b889-68d6e55db05f}">
+		<relationship name="modulators">
+			<destination>{b8760a7c-e2d8-4f2d-a5c3-c36d68d51626}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{bdea248b-4b2e-4e92-a0e5-85bf4b651e7f}</destination>
 		</relationship>
@@ -78,7 +91,19 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e5767a6e-5343-42fa-b0d7-412addc5bb0f}" />
+	<object class="MultiSound" id="{c69cedf7-11ea-4aff-bbbc-9ebdba6de345}">
+		<property name="length">
+			<value>2.5</value>
+		</property>
+		<relationship name="sounds">
+			<destination>{1cf2321b-0ea6-43d0-96b0-ffd85bb9bc30}</destination>
+			<destination>{0ba97136-5ce6-45bf-ab66-d08ce483f30e}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{b970615a-ac03-4b57-9ef0-365077e344f2}">
+		<property name="volume">
+			<value>-18.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -92,6 +117,29 @@
 			<destination>{4ee5707f-b329-4e18-b889-68d6e55db05f}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{b8760a7c-e2d8-4f2d-a5c3-c36d68d51626}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>0</value>
+		</property>
+		<property name="holdTime">
+			<value>0</value>
+		</property>
+		<property name="decayTime">
+			<value>0</value>
+		</property>
+		<property name="releaseTime">
+			<value>460</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{bdea248b-4b2e-4e92-a0e5-85bf4b651e7f}">
 		<relationship name="effects">
 			<destination>{f6fc3783-ec0c-46be-a396-16438b46dd8d}</destination>
@@ -99,6 +147,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{9fdd7346-4364-49eb-9fff-74f9b0e41ca3}" />
 	<object class="MixerBusFader" id="{faf9aff9-53e2-4863-a030-e025cc8a61cd}" />
+	<object class="SingleSound" id="{1cf2321b-0ea6-43d0-96b0-ffd85bb9bc30}">
+		<relationship name="audioFile">
+			<destination>{ebb9ed86-1581-4f32-8790-11478bf30c85}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{0ba97136-5ce6-45bf-ab66-d08ce483f30e}">
+		<relationship name="audioFile">
+			<destination>{d8169c96-981e-49f3-b4ad-41a23d95294f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{19c5b5c7-6690-4709-b442-ef236f3bc8fd}">
 		<relationship name="effects">
 			<destination>{b044d3ce-ce9e-4ae0-97db-025eef18568a}</destination>

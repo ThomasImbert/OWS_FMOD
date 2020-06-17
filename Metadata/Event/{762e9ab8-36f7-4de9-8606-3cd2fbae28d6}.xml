@@ -5,7 +5,7 @@
 			<value>SFX_Dog_Leash</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3fce5fa7-3787-46f4-8d0c-304dfa8aa36b}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{18a7aaa4-f654-4700-adb2-84d55b4d475f}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{fa381b1d-0b0c-48f7-b3a6-59616903c9fd}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{ae3ad256-38e0-4f1b-b51c-a4a227f5c84b}">
@@ -56,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{2a48db8a-cc7e-4647-a3e8-2ed32f01611a}" />
 	<object class="MarkerTrack" id="{730a7ff1-5ac7-4c7a-8f89-1dd04fbec02b}" />
 	<object class="GroupTrack" id="{31ed392b-c7bf-497d-a676-5854cfb963ff}">
+		<relationship name="modules">
+			<destination>{fac57b6e-2dc4-4c34-bc7d-da6311f5f9ad}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{fbd4f354-39ba-482e-8f72-6bf72ee84d83}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{18a7aaa4-f654-4700-adb2-84d55b4d475f}" />
+	<object class="Timeline" id="{18a7aaa4-f654-4700-adb2-84d55b4d475f}">
+		<relationship name="modules">
+			<destination>{fac57b6e-2dc4-4c34-bc7d-da6311f5f9ad}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{f35276bc-bf8f-4ac1-b887-63f74bc6e86b}">
 		<relationship name="effectChain">
 			<destination>{5c4d6fe9-4249-4fe3-ada0-2c5b94472427}</destination>
@@ -78,7 +88,21 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9170af9b-ccb1-4824-9658-4ccef9eb4e88}" />
+	<object class="SingleSound" id="{fac57b6e-2dc4-4c34-bc7d-da6311f5f9ad}">
+		<property name="isAsync">
+			<value>true</value>
+		</property>
+		<property name="length">
+			<value>5</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{cf0af333-5968-4745-a455-98b493e740e9}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{fbd4f354-39ba-482e-8f72-6bf72ee84d83}">
+		<property name="volume">
+			<value>-1.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
