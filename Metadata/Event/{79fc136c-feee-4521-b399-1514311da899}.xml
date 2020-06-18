@@ -215,7 +215,7 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>0</value>
+			<value>1400</value>
 		</property>
 		<property name="decayTime">
 			<value>0</value>

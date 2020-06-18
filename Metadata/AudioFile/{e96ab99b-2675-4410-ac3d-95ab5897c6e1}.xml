@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{e96ab99b-2675-4410-ac3d-95ab5897c6e1}">
+		<property name="assetPath">
+			<value>SFX/Anim/SFX_Kiss01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.30647916666666669</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e764de32-e70e-43f3-90b8-eb8ae6533cc9}</destination>
+		</relationship>
+	</object>
+</objects>
