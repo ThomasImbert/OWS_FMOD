@@ -275,6 +275,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{0fa4babf-2a69-4bc4-b4bd-8ae619a8f7d2}">
+		<relationship name="modulators">
+			<destination>{0b5883ee-6d2f-4a81-bc20-dc4a0d86bc0b}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{49f41f39-5d12-4cd3-8179-78af08c34dbb}</destination>
 		</relationship>
@@ -614,7 +617,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{04e89bff-4f2f-415c-99af-d0ea22766e40}">
 		<property name="volume">
-			<value>-15</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Percus</value>
@@ -966,7 +969,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{5804bdaa-14f7-4f02-9545-649e87e5b3ec}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Full</value>
@@ -1580,6 +1583,35 @@
 			<destination>{fd58c5ac-2e10-4ff0-bd26-f2adc227f6ea}</destination>
 		</relationship>
 	</object>
+	<object class="ADSRModulator" id="{0b5883ee-6d2f-4a81-bc20-dc4a0d86bc0b}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="initialValue">
+			<value>-80</value>
+		</property>
+		<property name="attackTime">
+			<value>192.307709</value>
+		</property>
+		<property name="peakValue">
+			<value>-0.577777863</value>
+		</property>
+		<property name="decayTime">
+			<value>60000</value>
+		</property>
+		<property name="sustainValue">
+			<value>-0.577777863</value>
+		</property>
+		<property name="releaseTime">
+			<value>6600</value>
+		</property>
+		<property name="releaseShape">
+			<value>-0.095856823</value>
+		</property>
+		<property name="finalValue">
+			<value>-80</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{49f41f39-5d12-4cd3-8179-78af08c34dbb}">
 		<relationship name="effects">
 			<destination>{91e82406-c91f-4880-87e6-dd7e41db9922}</destination>
@@ -1592,6 +1624,7 @@
 	<object class="MixerBusEffectChain" id="{4286213c-8616-4c54-9ae1-120470e06ee8}">
 		<relationship name="effects">
 			<destination>{961c05d2-54f5-47d8-8112-9a8684c86cac}</destination>
+			<destination>{47555911-4554-4b01-b375-2f79794c6cea}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0439cea8-23e5-490b-9c08-f731781a954b}" />
@@ -1967,6 +2000,7 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{961c05d2-54f5-47d8-8112-9a8684c86cac}" />
+	<object class="LoudnessMeter" id="{47555911-4554-4b01-b375-2f79794c6cea}" />
 	<object class="AutomationCurve" id="{e5240857-2e8d-45b3-9a9a-5f9d7ecd60bc}">
 		<relationship name="parameter">
 			<destination>{3aadc7ac-8339-4e33-85b4-ef260138d919}</destination>
