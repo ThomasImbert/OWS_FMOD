@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{1c5bc3d6-87ab-4682-af18-39e4382035c5}">
+		<property name="assetPath">
+			<value>SFX/Menu_Quit01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.35318749999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e764de32-e70e-43f3-90b8-eb8ae6533cc9}</destination>
+		</relationship>
+	</object>
+</objects>
