@@ -104,7 +104,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{8a5fb71d-1736-4fe9-9c84-a4d6f221720a}">
 		<property name="volume">
-			<value>-23</value>
+			<value>-20.5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -144,7 +144,10 @@
 			<value>-0.162485585</value>
 		</property>
 		<property name="releaseTime">
-			<value>2600</value>
+			<value>4000</value>
+		</property>
+		<property name="releaseShape">
+			<value>0.112211019</value>
 		</property>
 		<property name="finalValue">
 			<value>-80</value>
@@ -157,7 +160,7 @@
 	</object>
 	<object class="MixerBusPanner" id="{7026ce6a-9c09-461f-91fb-98ff1e6828da}">
 		<property name="stereoPan">
-			<value>16</value>
+			<value>20</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{b5d1b8f7-7048-46f0-87a3-f417ce1a5380}" />
