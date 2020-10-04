@@ -255,7 +255,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{51cc0d23-1e2d-43d2-8074-a2799c888901}">
 		<property name="name">
-			<value>Dusk 2</value>
+			<value>Rain</value>
 		</property>
 		<relationship name="automators">
 			<destination>{983d54c7-d97f-45ad-beaf-76ea7073918b}</destination>
@@ -497,7 +497,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c6baa0fa-bedd-45a2-9a2d-d78cb82436ba}">
 		<property name="position">
-			<value>3.0025063345760836</value>
+			<value>2.9000208333333335</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
@@ -505,10 +505,10 @@
 	</object>
 	<object class="AutomationPoint" id="{f79273a9-43a3-4ba3-b459-735a3fe2a766}">
 		<property name="position">
-			<value>3.0024855012427505</value>
+			<value>2.9000000000000004</value>
 		</property>
 		<property name="value">
-			<value>3.81469727e-06</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{25aae628-eebc-4d65-9f23-58a8581e23c6}">
@@ -521,7 +521,7 @@
 	</object>
 	<object class="AutomationPoint" id="{00262f50-e288-43a1-9076-e58dfb362f34}">
 		<property name="position">
-			<value>2.9999791666666669</value>
+			<value>2.9000000000000004</value>
 		</property>
 		<property name="value">
 			<value>-80</value>
